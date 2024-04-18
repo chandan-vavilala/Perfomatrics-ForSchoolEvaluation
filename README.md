@@ -66,9 +66,9 @@ Script File: [Python Script file](https://github.com/chandan-vavilala/Perfomatri
 For any inquiries or suggestions, please contact: 
 1. Poorna Chandan Reddy Vavilala at chandanreddyvavilala@gmail.com
 2. Sri Charan Vattikonda at sricharanvattikonda@gmail.com
-3. [] at []
-4. [] at []
-5. [] at []
-6. [] at []
+3. Sai Balaji Gadi 
+4. Anudeep Yalamanchi
+5. Bharghav Krishna Moparthy
+6. Karthik Parvathaneni
 
 
