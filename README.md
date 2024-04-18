@@ -76,7 +76,7 @@ For any inquiries or suggestions, please contact:
 
 Poorna Chandan Reddy Vavilala at chandanreddyvavilala@gmail.com
 
-Sri Charan Vattikonda at sricharanvattikonda@gmail.com
+Sri Charan Vattikonda at sricharanv2001@gmail.com
 
 
 
