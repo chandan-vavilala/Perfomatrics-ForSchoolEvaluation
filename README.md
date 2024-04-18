@@ -24,7 +24,8 @@ This is a web application built using React.js, Node.js, MongoDB, D3.js, and Fir
 
 - **Backend**:
   - Node.js
-  - MongoDB (using Mongoose for ORM)
+  - MongoDB (using Mongoose for ORM) (For managing and storing assessment details)
+  - Firebase Firestore (For managing and storing user details)
   - Python Script
 
 - **Authentication and Authorization**:
