@@ -40,7 +40,7 @@ This is a web application built using React.js, Node.js, MongoDB, D3.js, and Fir
 
 2. Configure MongoDB:
    - Set up MongoDB database.
-   - Create .envfile in the Back-end folder location.
+   - Create .env file in the Back-end folder location.
    - Update the MongoDB connection string in "Back-end/.env" file.
 
 ## Usage
