@@ -1,7 +1,7 @@
 # Perfomatrics - for School Evaluation
 
 ## Description
-This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous Semesters Assessments and evaluate them for any further usage of the courses.
+This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous Semesters Assessments and evaluate them for any further usage of the assessments.
 
 ## Features
 - User Management: Managing users of the university based on there roles.
