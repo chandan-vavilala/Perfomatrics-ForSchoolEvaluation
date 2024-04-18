@@ -1,0 +1,733 @@
+superadmin.css
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  transition: transform 0.7s ease;
+  z-index: 1000;
+}
+
+
+.open {
+  transform: translateX(0);
+}
+
+
+.close {
+  transform: translateX(-170px);
+}
+
+.toggle-icon {
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  bottom : 0px;
+  right:15px;
+}
+
+.menu-list {
+  position: absolute;
+  top: 100px; /* Adjust as needed */
+  left: 0px;
+  text-align:justify;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.menu-list ul {
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.menu-list li {
+  padding: 20px;
+}
+
+.menu-list li:hover {
+  background-color: #2f8909;
+}
+
+.active-background {
+  background-color: rgb(147, 129, 129);
+}
+
+
+
+.menu-icon-1 {
+  background-color: #73777f; /* Light gray background color */
+  padding: 10px; /* Adjust padding as needed */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 0%; /* Optional: Add border-radius for rounded shape */
+  
+}
+
+.menu-item {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 0px;
+}
+
+.menu-item span {
+  margin-left:20px; /* Adjust spacing between icon and text */
+}
+
+
+.closed-menu-icons {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-right: 0px;
+  margin-top: -35px;
+  
+}
+
+
+/* Main content styles */
+.bg-color-header{
+  /* margin-left: -20px; */
+  background-color: #ffffff;
+  background-size: auto 40px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold; /* Ensure text is bold */
+  margin-top: -10px;
+  margin-right: -15px;
+  padding:0%;
+}
+
+.main-content {
+  transition: margin-left 0.3s ease;
+  flex-grow: 1;
+}
+
+/* admin.css */
+
+/* Adjusted margin based on sidebar state */
+.sidebar-open {
+  margin-left: 50px; /* Width of sidebar */
+}
+
+.sidebar-closed {
+  margin-left: 40px; /* Adjust as needed */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.top-margin{
+  margin-top: 20px;
+}
+
+
+.closed-menu-icons {
+  position: absolute;
+  top: 100px; /* Adjust as needed */
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.closed-menu-icons .menu-icon {
+  margin-bottom: 30px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.search-icon {
+  color: #000; /* Adjust as needed */
+}
+
+
+.uploadButton{
+  
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 22px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.upload-data{
+  text-align: center;
+  align-items: center;
+  margin-left: -30px;
+
+}
+
+
+.username{
+  margin-left: 30px;
+  
+}
+
+.link {
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 250px; /* Adjust width as needed */
+  background-color: #1a202c; /* Sidebar background color */
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000; /* Ensure sidebar is above other content */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+
+
+/* Active link */
+.link.active {
+  background-color: #4a5568; /* Active link background color */
+  color: #ffffff; /* Active link text color */
+}
+
+/* Link hover effect */
+.link:hover {
+  background-color: #2d3748; /* Darken background on hover */
+  
+}
+
+
+
+
+
+
+.logout-button {
+  background-color: #008504; /* Green background */
+  border: none;
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 24px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  transition-duration: 0.4s;
+}
+
+.logout-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.logout-link {
+  color: white;
+  text-decoration: none;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity as needed */
+}
+
+
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  z-index: 9999; /* Ensure the overlay is on top of other content */
+}
+
+.spinner-border {
+  width: 4rem;
+  height: 4rem;
+  border-width: 0.3em;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-top-color: #007bff;
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    
+    transform: matrix();
+  }
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Adjust as needed */
+  
+}
+
+
+.card {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/nwmsu-assessmentviewer.appspot.com/o/Backgrounds%2Fnwmsutower.jpeg?alt=media&token=e78db4b9-b3b1-4042-8acb-01957dded691');
+  background-size:cover;
+  justify-content: center; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  border: 1px solid #d91515;
+  border-radius: 5px;
+  padding: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5); /* Change the alpha value (0.5) to adjust the darkness */
+}
+
+ .card-content {
+  flex-grow: 1; /* Allow content to expand to fill remaining space */
+  
+}
+
+.card {
+  position: relative; /* Set position relative for absolute positioning */
+  width: 350px; /* Set width of the card */
+  height: 250px; /* Set height of the card */
+  border: 5px solid #ccc;
+  margin: 20px;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+
+
+.coursecardname {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%; /* Set width to fill the entire card */
+  background: green;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.card {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-content {
+  flex-grow: 1;
+  
+}
+
+.course-name-container {
+  background: rgb(29, 138, 175);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+
+.card:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.card:hover .course-name-container{
+  background: rgba(19, 84, 169, 0.8); /* Change to lighter green on hover */
+}
+
+
+
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust as needed */
+  z-index: 1000; /* Ensure header is above other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual effect */
+}
+
+.header {
+  padding: 10px;
+}
+
+.main-content {
+  margin-top: 1px; /* Adjust according to header height */
+}
+
+
+
+
+/* Add User Form  */
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: flex-start;
+
+}
+
+.popup.open {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: flex-start; 
+}
+
+
+
+.popup h2 {
+  margin-bottom: 20px;
+  align-items:center;
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.popup form div {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.popup label {
+  font-weight: bold;
+}
+
+.popup input[type="text"] {
+  padding: 8px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-inline-end: auto;
+  
+}
+
+.popup button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.popup button:not(:last-child) {
+  margin-right: 50px;
+  margin-left: 'auto';
+}
+
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+
+/* ADD USER BTN IN USERS */
+.addUserBtn {
+  justify-content: end;
+  align-items: end;
+  margin-left : 20px;
+  padding: 8px;
+}
+
+
+.divheader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Adjust background color as needed */
+  text-align: right;
+  padding: 10px 0; /* Adjust padding as needed */
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+  z-index: 999; /* Ensure the header appears above other content */
+  height: 40px;
+  margin-top:   0px;
+  height: auto;
+}
+
+
+.backButton {
+  padding: 10px;
+  background-color: #3a8cff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.backButton:hover {
+  background-color: #297acc; /* Darker blue background color on hover */
+}
+
+
+.backButton:active {
+  transform: translateY(5px); /* Move the button down slightly when clicked */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Add a subtle shadow when clicked */
+}
+
+
+
+.searchbar{
+  margin-right: 40px;
+}
+
+
+
+.popup-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+}
+
+.user-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  padding:  25px 0px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .submit-btn:hover {
+  background-color: #0056b3;
+} */
+
+
+.user-row:hover {
+  background-color: #f0f0f0; /* Change the background color as needed */
+  font-weight: bold;
+}
+
+
+.user-td{
+  text-align: 'left';
+  border: '1px solid #3a8cff';
+  padding: '12px';
+}
+
+
+.styled-table {
+  width: 90%;
+  font-size: 16px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.styled-table th{
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+   /* Set a fixed height for the table cells */
+   
+  width: 200px;
+}
+
+.styled-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+   /* Set a fixed height for the table cells */
+   height: 100px;
+  width: 200px;
+}
+
+.styled-table th {
+  background-color: #1765d2;
+  color: white;
+  text-align: left;
+}
+
+.styled-table .user-row:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.styled-table .action-cell button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+.styled-table .enable-btn,
+.styled-table .disable-btn,
+.styled-table .delete-btn {
+  padding: 8px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.styled-table .enable-btn:hover,
+.styled-table .disable-btn:hover,
+.styled-table .delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Set a specific line height for the cell content */
+.styled-table th,
+.styled-table td {
+  line-height: 1.2;
+}
+
+
+
+
+.popup {
+  /* Existing styles */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 1000;
+  padding: 20px;
+  border: 6px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  max-height: calc(100vh - 50px); /* Adjust to leave space for close button */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+}
+
+
+.popup-content button {
+  /* Existing styles */
+  position: absolute;
+}
+
+.popup-content button.close-btn {
+  top: 10px;
+  right:-30px;
+}
+
+.popup-content button.submit-btn {
+  bottom: -12px;
+  right: 530px;
+}
+
+
+.widget-space{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 220px;
+    margin-top: 130px;
+    margin-left: 85px;
+    margin-right: 5px;
+    /* background-color: #b3d5ff; */
+}
+
+
+.editButton {
+  color : rgba(46, 20, 213, 0.868);
+  transition: transform 0.1s ease; /* Add transition for smooth size change */
+  width: 25px;
+  height:25px;
+}
+
+
+.editButton:hover {
+  transform: scale(1.2); /* Enlarge the button on hover */
+}

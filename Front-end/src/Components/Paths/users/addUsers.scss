@@ -1,0 +1,411 @@
+
+body.popup-open{
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+.popup {
+    position: fixed;
+    top: 46.9%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border-radius: 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+    overflow-y: auto; /* Enable vertical scrolling within the popup */
+    margin-left: 50px;
+   
+  
+  }
+  
+  .popup-content {
+    text-align: center;
+    
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-form {
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  label {
+    font-weight: bold;
+  
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  select {
+    padding: 10px;
+    border: 1px solid #a89d9d;
+    border-radius: 5px;
+    outline: none;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"] {
+    display: none;
+    
+  }
+
+  .submit-btn {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 100px;
+    margin-left: 900px;
+  }
+
+  
+.submit-btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+.submit-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+#errorMessage {
+    margin-top: 10px;
+  }
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group label {
+  width: 120px; /* Adjust width as needed */
+  margin-right: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+.input-group label {
+    width: 120px; /* Adjust width as needed */
+    margin-right: 10px;
+    justify-items: auto;
+  }
+  
+.input-group input {
+    flex: 1;
+  }
+  
+
+.user-row{
+  max-height: 00px;
+}
+
+  .user-row:hover {
+    background-color: #f0f0f0; /* Change the background color as needed */
+    font-weight:auto;
+  }
+  
+  
+  .user-td{
+    text-align: 'left';
+    border: '1px solid #3a8cff';
+    padding: '12px';
+  }
+
+  .form-group-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    margin: 20px;
+    margin-bottom: 20px;
+    align-items: left; /* Center the content horizontally */
+    align-self: center;
+}
+  
+  
+// Table and main view
+
+  .styled-table {
+    width: 100%;
+    font-size: 16px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .styled-table thead{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+     /* Set a fixed height for the table cells */
+    max-height : 10px;
+    width: 200px;
+  }
+  
+  .styled-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+     /* Set a fixed height for the table cells */
+    height: 10px;
+    width: 200px;
+  }
+  
+  .styled-table th {
+    background-color: #1765d2;
+    color: white;
+    text-align: left;
+  }
+  
+  .styled-table .user-row:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .styled-table .action-cell button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .styled-table .enable-btn,
+  .styled-table .disable-btn,
+  .styled-table .delete-btn,
+  .styled-table .view-btn {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .styled-table .enable-btn:hover,
+  .styled-table .disable-btn:hover,
+  .styled-table .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Set a specific line height for the cell content */
+  .styled-table th,
+  .styled-table td {
+    line-height: 1;
+  }
+  
+  
+  .styled-table tr {
+    height: 130px; /* Adjust the height as needed */
+  }
+  
+  .styled-table .user-row:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+
+  .addUserBtn {
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .addUserBtn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+
+  
+  .divheader{
+    max-width: 100%;
+    position: fixed;
+  }
+
+
+.searchbar{
+  margin-right: 40px;
+  align-self: auto;
+  width: auto;
+}
+
+// /* Hide the default checkbox */
+// input[type="checkbox"] {
+//   display:none;
+// }
+
+// /* Style the custom checkbox container */
+// .checkbox-container {
+//   display: inline-block;
+//   position: relative;
+//   padding-left: 25px; /* Adjust the space for the checkbox */
+//   cursor: pointer;
+// }
+
+// /* Style the custom checkbox */
+// .checkbox-container::before {
+//   content: "";
+//   display: inline-block;
+//   position: absolute;
+//   left: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 18px;
+//   height: 18px;
+//   border: 2px solid #555;
+//   border-radius: 3px;
+// }
+
+// /* Style the checkmark */
+// .checkbox-container::after {
+//   content: "";
+//   display: none;
+//   position: absolute;
+//   left: 4px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   width: 10px;
+//   height: 5px;
+//   border-left: 2px solid #555;
+//   border-bottom: 2px solid #555;
+//   transform-origin: bottom left;
+//   transform: rotate(-45deg);
+// }
+
+// /* Show the checkmark when the checkbox is checked */
+// input[type="checkbox"]:checked + .checkbox-container::after {
+//   display: block;
+// }
+
+
+// MultipleChoices
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Select Wrapper */
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-family: 'Roboto', sans-serif; /* Elegant font */
+}
+
+.select-wrapper select:focus {
+  border-color: #007bff;
+}
+
+/* Checkbox Option */
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-option input[type="checkbox"] {
+  margin-right: 10px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.checkbox-option input[type="checkbox"]:checked {
+  border-color: #007bff;
+}
+
+.checkbox-option label {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Checkbox Custom Indicator */
+.checkbox-option input[type="checkbox"]::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 3px;
+  transition: opacity 0.3s ease;
+  opacity: 0; /* Initially hidden */
+}
+
+.checkbox-option input[type="checkbox"]:checked::before {
+  opacity: 1; /* Show when checked */
+}
+
+
+

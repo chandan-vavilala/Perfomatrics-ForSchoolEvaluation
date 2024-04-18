@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor : pointer;
+}
+
+.course-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666;
+}
+
+.course-name {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+}
+
+.course-role,
+.course-schoolId,
+.course-id {
+    color: #666;
+    margin-left: 10px; /* Adjust as needed for spacing */
+}

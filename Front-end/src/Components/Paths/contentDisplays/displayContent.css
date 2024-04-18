@@ -1,0 +1,108 @@
+/* .box {
+    width: 100%;
+    height: 50px;
+    background-color: #f9f8f8ee; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+  } */
+
+  .assessment-box {
+    width: 100%;
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center content vertically */
+    justify-content: left; /* Center content horizontally */
+    background-color: #f9f8f8ee; /* Grey background color */
+    margin-bottom: 10px; /* Add spacing between boxes */
+    padding: 10px; /* Add padding inside the box */
+    word-wrap: break-word; /* Allow text to wrap onto multiple lines */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .assessment-text {
+    overflow: hidden; /* Hide overflow text */
+  }
+  
+  .assessment-box:hover .assessment-text {
+    text-decoration: underline; /* Add underline to text on hover */
+  }
+  
+
+  .outcome-box {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center content vertically */
+    justify-content: left; /* Center content horizontally */
+    background-color: #f9f8f8ee; /* Grey background color */
+    margin-bottom: 10px; /* Add spacing between boxes */
+    padding: 10px; /* Add padding inside the box */
+    word-wrap: break-word; /* Allow text to wrap onto multiple lines */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .outcome-text {
+    overflow: hidden; /* Hide overflow text */
+  }
+  
+  .outcome-box:hover .outcome-text {
+    text-decoration: underline; /* Add underline to text on hover */
+  }
+  
+  
+  
+  
+  
+  
+  /* Selexted */
+
+/* Container styles */
+.semester-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Heading styles */
+.semester-heading {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif; /* Futuristic font */
+  color: #fff; /* White color */
+  font-size: 24px;
+}
+
+/* Select styles */
+.semester-select {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #73afef; /* Blue color */
+  color: #fff; /* White color */
+  appearance: none; /* Remove default select arrow */
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Button styles */
+.semester-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #d38e0e; /* Turquoise color */
+  color: #fff; /* White color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 30px;
+}
+
+.semester-button:hover {
+  background-color: #ec7606; /* Darker turquoise on hover */
+}
+
+/* Add gradient effect */
+.semester-container {
+  /* background-image: linear-gradient(45deg, #ff00e0, #7700ff); Gradient from pink to purple */
+  background-image: linear-gradient(to bottom right, #196b3b, #00ef8b);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}

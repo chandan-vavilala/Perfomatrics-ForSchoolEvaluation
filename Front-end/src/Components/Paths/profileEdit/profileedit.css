@@ -1,0 +1,142 @@
+/* Profile Container */
+.profile-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #020024, #090e3b);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Profile Card */
+.profile-card {
+  width: 700px;
+  height: 500px;
+  background: linear-gradient(to bottom right, #090e3b, #141852);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Profile Image */
+.profile-image {
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #00e3ff;
+  transition: transform 0.5s ease;
+}
+
+.profile-image img:hover {
+  transform: rotate(360deg);
+}
+
+/* Edit Button */
+.edit-button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #00e3ff;
+  color: #090e3b;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #00b5cc;
+}
+
+/* Profile Details */
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Editable Label */
+.editable-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 20px;
+  min-width: 120px;
+  font-weight: bold;
+  color: #00e3ff;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input {
+  margin-right: 20px; 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #00e3ff;
+  background-color: transparent;
+  color: #00e3ff;
+}
+
+.save-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #00b5cc;
+  color: #090e3b;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #008ca3;
+}
+
+/* Label and Value Styling */
+.label-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.label {
+  min-width: 100px;
+  font-weight: bold;
+  padding: 5px;
+  color: #00e3ff;
+}
+
+.value {
+  padding: 8px 20px;
+  background-color: #00b5cc;
+  color: #090e3b;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.value:hover {
+  transform: scale(1.05);
+}
+
+.lister {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: rgb(182, 215, 235);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+}
+
