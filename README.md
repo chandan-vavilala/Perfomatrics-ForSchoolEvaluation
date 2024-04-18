@@ -12,9 +12,9 @@
 This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous semesters assessments and evaluate them for any further usage of the assessments.
 
 ## Features
-- User Management: Managing users of the university based on their roles(**Super-admin, admin, faculty**).
-- Assessment Evaluations: A Visualization is used to assess any previous semester's assessments.
-- Cleaning Data: On Uploading the csv files the data is cleaned in-app and stored in the MongoDB
+- **User Management:** Managing users of the university based on their roles(**Super-admin, admin, faculty**).
+- **Assessment Evaluations:** A Visualization is used to assess any previous semester's assessments.
+- **Cleaning Data:** On Uploading the csv files the data is cleaned in-app and stored in the MongoDB
 
 ## Technologies Used
 - **Frontend**:
