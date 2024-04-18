@@ -2,8 +2,8 @@
 
 ## Team Members
 
-1. Poorna Chandan Reddy Vavilala at chandanreddyvavilala@gmail.com
-2. Sri Charan Vattikonda at sricharanvattikonda@gmail.com
+1. Poorna Chandan Reddy Vavilala
+2. Sri Charan Vattikonda
 3. Sai Balaji Gadi 
 4. Anudeep Yalamanchi
 5. Bharghav Krishna Moparthy
