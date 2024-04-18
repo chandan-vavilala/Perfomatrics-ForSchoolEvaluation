@@ -59,7 +59,8 @@ This is a web application built using React.js, Node.js, MongoDB, D3.js, and Fir
 3. Access the application in your browser at `http://localhost:3000`.
 
 ## Python Script 
-Script File: 'https://github.com/chandan-vavilala/Perfomatrics-ForSchoolEvaluation/blob/main/Back-end/cleanedDataScript.py '
+Script File: [Python Script file](https://github.com/chandan-vavilala/Perfomatrics-ForSchoolEvaluation/blob/main/Back-end/cleanedDataScript.py)
+
 
 ## Contact
 For any inquiries or suggestions, please contact: 
