@@ -1,21 +1,23 @@
 # Perfomatrics - for School Evaluation
 
 ## Description
-This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous Semesters Assessments and evaluate them for any further usage of the assessments.
+This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous semesters assessments and evaluate them for any further usage of the assessments.
 
 ## Features
-- User Management: Managing users of the university based on there roles.
+- User Management: Managing users of the university based on their roles(**Super-admin, admin, faculty**).
 - Assessment Evaluations: A Visualization is used to assess any previous semester's assessments.
 - Cleaning Data: On Uploading the csv files the data is cleaned in-app and stored in the MongoDB
 
 ## Technologies Used
 - **Frontend**:
   - React.js
+  - D3.js
   - FontAwesome for icons.
 
 - **Backend**:
   - Node.js
   - MongoDB (using Mongoose for ORM)
+  - Python Script
 
 - **Authentication and Authorization**:
   - Firebase Authentication
@@ -56,6 +58,8 @@ This is a web application built using React.js, Node.js, MongoDB, D3.js, and Fir
 
 3. Access the application in your browser at `http://localhost:3000`.
 
+## Python Script 
+Script File: 'https://github.com/chandan-vavilala/Perfomatrics-ForSchoolEvaluation/blob/main/Back-end/cleanedDataScript.py '
 
 ## Contact
 For any inquiries or suggestions, please contact: 
