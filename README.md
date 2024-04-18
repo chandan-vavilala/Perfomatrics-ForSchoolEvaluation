@@ -1,5 +1,13 @@
 # Perfomatrics - for School Evaluation
 
+## Team Members
+
+1. Poorna Chandan Reddy Vavilala at chandanreddyvavilala@gmail.com
+2. Sri Charan Vattikonda at sricharanvattikonda@gmail.com
+3. Sai Balaji Gadi 
+4. Anudeep Yalamanchi
+5. Bharghav Krishna Moparthy
+6. Karthik Parvathaneni
 ## Description
 This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous semesters assessments and evaluate them for any further usage of the assessments.
 
@@ -65,12 +73,8 @@ Script File: [Python Script file](https://github.com/chandan-vavilala/Perfomatri
 ## Contact
 For any inquiries or suggestions, please contact:
 
-**Team Code Samurais**
-1. Poorna Chandan Reddy Vavilala at chandanreddyvavilala@gmail.com
-2. Sri Charan Vattikonda at sricharanvattikonda@gmail.com
-3. Sai Balaji Gadi 
-4. Anudeep Yalamanchi
-5. Bharghav Krishna Moparthy
-6. Karthik Parvathaneni
+Poorna Chandan Reddy Vavilala at chandanreddyvavilala@gmail.com
+Sri Charan Vattikonda at sricharanvattikonda@gmail.com
+
 
 
