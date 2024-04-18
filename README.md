@@ -1,21 +1,20 @@
-# Project Name
+# Perfomatrics - for School Evaluation
 
 ## Description
-This is a web application built using React.js, Node.js, MongoDB, and Firebase. It provides [brief description of what the application does].
+This is a web application built using React.js, Node.js, MongoDB, D3.js, and Firebase. It provides the University professors to assess any previous Semesters Assessments and evaluate them for any further usage of the courses.
 
 ## Features
-- [Feature 1]: [Description]
-- [Feature 2]: [Description]
-- [Feature 3]: [Description]
+- [User Management]: [Managing users of the university based on there roles.]
+- [Assessment Evaluations]: [A Visualization is used to assess any previous semester's assessments.]
+- [Cleaning Data]: [On Uploading the csv files the data is cleaned in-app and stored in the MongoDB]
 
 ## Technologies Used
 - **Frontend**:
   - React.js
-  - [Any other frontend libraries or frameworks used]
+  - FontAwesome for icons.
 
 - **Backend**:
   - Node.js
-  - Express.js
   - MongoDB (using Mongoose for ORM)
 
 - **Authentication and Authorization**:
@@ -25,33 +24,34 @@ This is a web application built using React.js, Node.js, MongoDB, and Firebase. 
   - [Deployment platform, e.g., Heroku, AWS, etc.]
 
 ## Installation
-1. Clone the repository: `git clone [repository URL]`
+1. Clone the repository: `git clone [https://github.com/chandan-vavilala/Perfomatrics-ForSchoolEvaluation]`
 2. Navigate to the project directory: `cd [project directory]`
 3. Install dependencies:
-   - Frontend: `cd client && npm install`
-   - Backend: `cd server && npm install`
+   - Frontend: `cd Front-end && npm install`
+   - Backend: `cd Back-end && npm install`
 
 ## Configuration
 1. Configure Firebase:
    - Create a Firebase project: [Firebase Console](https://console.firebase.google.com/)
    - Set up Firebase Authentication and copy your Firebase config.
-   - Paste the Firebase config in [specific file or location].
+   - Paste the Firebase config in [fbconfig.js] file.
 
 2. Configure MongoDB:
    - Set up MongoDB database.
-   - Update the MongoDB connection string in [specific file or location].
+   - Create .envfile in the Back-end folder location.
+   - Update the MongoDB connection string in [Back-end/.env] file.
 
 ## Usage
 1. Start the backend server:
-   ```bash
-   cd server
+   ```
+   cd Front-end
    npm start
    ```
 
 2. Start the frontend development server:
-   ```bash
-   cd client
-   npm start
+   ```
+   cd Back-end
+   node index.js
    ```
 
 3. Access the application in your browser at `http://localhost:3000`.
@@ -59,11 +59,16 @@ This is a web application built using React.js, Node.js, MongoDB, and Firebase. 
 ## Deployment
 - [Deployment instructions]
 
-## Contributing
-Contributions are welcome! Please follow the [Contribution Guidelines](CONTRIBUTING.md).
-
 ## License
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [Perfomatrics - for School Evaluation]
 
 ## Contact
-For any inquiries or suggestions, please contact [Contact Person] at [contact email].
+For any inquiries or suggestions, please contact: 
+1. [Sri Charan Vattikonda] at [sricharanvattikonda@gmail.com]
+2. [Poorna Chandan Reddy Vavilala] at [chandanreddyvavilala@gmail.com]
+3. [] at []
+4. [] at []
+5. [] at []
+6. [] at []
+
+
