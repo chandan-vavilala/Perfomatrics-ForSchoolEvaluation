@@ -5,7 +5,7 @@ import Admin from './Components/Dashboards/Admin.jsx'
 import Faculty from './Components/Dashboards/faculty.jsx'
 import SuperAdmin from './Components/Dashboards/Superadmin.jsx'
 import Index from './Components/Login/Index.jsx'
-import Profile from './Components/Paths/profile.jsx'
+import Profile from './Components/Paths/profile/profile.jsx'
 import Fileupload from './Components/Paths/fileUpload/fileupload.jsx';
 import Settings from './Components/Paths/settings/settings.jsx'
 import Users from './Components/Paths/users/users.jsx'

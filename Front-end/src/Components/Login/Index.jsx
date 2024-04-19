@@ -305,6 +305,9 @@ import { doc, getDoc } from 'firebase/firestore';
 
 import './Index.css'; // Import CSS file
 
+import BackgroundVideo from './nwmsuvideo.mp4';
+
+
 const Index = () => {
   const [error, setError] = useState('');
   const [email, setEmail] = useState('');
@@ -368,7 +371,15 @@ const Index = () => {
 
   return (
     <div className="login-container">
-      <div className="background"></div>
+
+    {/* <div className='vignette-overlay'></div> */}
+
+    <video className="background-video" autoPlay muted loop>
+        <source src={BackgroundVideo} type="video/mp4" />
+    </video>
+
+      {/* <div className="background"></div> */}
+
       <div className="login-form">
         {/* <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/nwmsu-assessmentviewer.appspot.com/o/Backgrounds%2Fnw.jpg?alt=media&token=ec52af42-4938-4fba-ae36-88939fb1fef6" alt="Northwest University" /> */}
         <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/nwmsu-assessmentviewer.appspot.com/o/Backgrounds%2Fnwmsufulltrans.png?alt=media&token=595227a2-0dd6-4c8d-910a-a9e423124a88" alt="Northwest University" />

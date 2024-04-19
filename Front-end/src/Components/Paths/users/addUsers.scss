@@ -17,8 +17,6 @@ body.popup-open{
     transition: opacity 0.3s ease;
     overflow-y: auto; /* Enable vertical scrolling within the popup */
     margin-left: 50px;
-   
-  
   }
   
   .popup-content {
@@ -280,53 +278,6 @@ body.popup-open{
   width: auto;
 }
 
-// /* Hide the default checkbox */
-// input[type="checkbox"] {
-//   display:none;
-// }
-
-// /* Style the custom checkbox container */
-// .checkbox-container {
-//   display: inline-block;
-//   position: relative;
-//   padding-left: 25px; /* Adjust the space for the checkbox */
-//   cursor: pointer;
-// }
-
-// /* Style the custom checkbox */
-// .checkbox-container::before {
-//   content: "";
-//   display: inline-block;
-//   position: absolute;
-//   left: 0;
-//   top: 50%;
-//   transform: translateY(-50%);
-//   width: 18px;
-//   height: 18px;
-//   border: 2px solid #555;
-//   border-radius: 3px;
-// }
-
-// /* Style the checkmark */
-// .checkbox-container::after {
-//   content: "";
-//   display: none;
-//   position: absolute;
-//   left: 4px;
-//   top: 50%;
-//   transform: translateY(-50%);
-//   width: 10px;
-//   height: 5px;
-//   border-left: 2px solid #555;
-//   border-bottom: 2px solid #555;
-//   transform-origin: bottom left;
-//   transform: rotate(-45deg);
-// }
-
-// /* Show the checkmark when the checkbox is checked */
-// input[type="checkbox"]:checked + .checkbox-container::after {
-//   display: block;
-// }
 
 
 // MultipleChoices

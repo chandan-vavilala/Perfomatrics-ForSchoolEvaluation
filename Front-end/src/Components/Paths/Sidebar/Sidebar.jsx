@@ -2,7 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTachometerAlt, faUsers, faCog, faBars, faTimes, faFileUpload, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
-import "/Users/chandanreddy/Documents/GitHub/Student_Performance_Analysis_Application/Front-end/src/Components/Cascade Styling/superadmin.css";
+import "../../Cascade Styling/superadmin.css";
+import "./Sidebar.css";
 
 
 const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {

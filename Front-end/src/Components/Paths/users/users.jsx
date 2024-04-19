@@ -17,6 +17,7 @@ import axios from 'axios';
 
 
 
+
 export default function Users() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const [userDetails, setUserDetails] = useState(null);
@@ -462,7 +463,7 @@ export default function Users() {
                   ) : (
                     <div style={{ position: 'relative', display: 'inline-block' }}>
                       <img
-                        src={formData.image || "https://firebasestorage.googleapis.com/v0/b/nwmsu-assessmentviewer.appspot.com/o/Backgrounds%2Fnw.jpg?alt=media&token=ec52af42-4938-4fba-ae36-88939fb1fef6"}
+                        src={formData.image || "https://firebasestorage.googleapis.com/v0/b/nwmsu-assessmentviewer.appspot.com/o/Profile%20Pictures%2Fdefault.jpeg?alt=media&token=5866e39e-5f8b-4960-b9cb-1320e268ca0c"}
                         alt="Profile Picture"
                         style={{ width: '100px', height: '100px', borderRadius: '70px', cursor: 'pointer' }}
                       />

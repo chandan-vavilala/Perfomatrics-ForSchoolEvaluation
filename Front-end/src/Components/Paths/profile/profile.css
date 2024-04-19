@@ -1,0 +1,81 @@
+
+  
+  /* Profile Page Styles */
+  .profile-container {
+    
+    display: flex;
+    height: 100vh;
+  }
+  
+  .profile-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #196b3b, #00ef8b);
+  }
+  
+  .profile-card {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: #b3d5ff 5px solid;
+    background: linear-gradient(to bottom right, #196b3b, #00ef8b);
+  }
+  
+  .profile-image-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image-edit-button {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    z-index: 999;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    margin-bottom: -5px;
+    margin-right: 0px;
+    background-color: red;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    border: 5px solid white;
+  }
+  
+  .profile-details {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .logout-button,
+  .change-password-button {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .logout-button:hover,
+  .change-password-button:hover {
+    background-color: white;
+    color: #196b3b;
+  }
+  
