@@ -33,9 +33,6 @@ This is a web application built using React.js, Express.js, Node.js, MongoDB, D3
 
 - **Authentication and Authorization**:
   - Firebase Authentication
-  
-- **Deployment**:
-  - [Deployment platform, e.g., Heroku, AWS, etc.]
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/chandan-vavilala/Perfomatrics-ForSchoolEvaluation`
