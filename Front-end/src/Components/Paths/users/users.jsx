@@ -606,7 +606,7 @@ export default function Users() {
 
               <div className="form-group" style={{height:'60px'}}>
                 <button type="submit" className="btn-submit">Submit</button>
-                {/* <button type="button" className="btn-cancel" onClick={togglePopup}>Cancel</button> */}
+       
                 <p id="errorMessage" style={{ color: 'red', marginTop: '10px', textAlign: 'center' }}></p>
               </div>
             </form>

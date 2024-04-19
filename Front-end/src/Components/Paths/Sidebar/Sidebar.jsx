@@ -58,14 +58,7 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                     </div>
                   </li>
                 </Link>
-                {/* <Link to="/settings" className={`link ${location.pathname === '/settings' ? 'active' : ''}`}>
-                  <li className="p-4 hover:bg-gray-700">
-                    <div className="menu-item">
-                      <FontAwesomeIcon icon={faCog} className="mr-2" size="2x" style={{ color: 'white' }} />
-                      <span style={{ color: 'white' }}>Settings</span>
-                    </div>
-                  </li>
-                </Link> */}
+
                 <Link to="/Fileupload" className={`link ${location.pathname === '/Fileupload' ? 'active' : ''}`}>
                   <li className="p-4 hover:bg-gray-700">
                     <div className="menu-item">
@@ -116,14 +109,7 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                     </div>
                   </li>
                 </Link>
-                {/* <Link to="/settings" className={`link ${location.pathname === '/settings' ? 'active' : ''}`}>
-                  <li className="p-4 hover:bg-gray-700">
-                    <div className="menu-item">
-                      <FontAwesomeIcon icon={faCog} className="mr-2" size="2x" style={{ color: 'white' }} />
-                      <span style={{ color: 'white' }}>Settings</span>
-                    </div>
-                  </li>
-                </Link> */}
+      
               </>
             )}
             {role === 'faculty' && (
@@ -141,17 +127,9 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                     </div>
                   </li>
                 </Link>
-                
-                {/* <Link to="/faculty" className={`link ${location.pathname === '/faculty' ? 'active' : ''}`}>
-                  <li className="p-4 hover:bg-gray-500">
-                    <div className="menu-item">
-                      <FontAwesomeIcon icon={faTachometerAlt} className="mr-2" size="2x" style={{ color: 'white' }} />
-                      <span style={{ color: 'white' }}>Dashboard</span>
-                    </div>
-                  </li>
-                </Link> */}
+              
 
-                {/* Add more sidebar items based on roles */}
+          
                 <Link to="/schools" className={`link ${location.pathname === '/schools' ? 'active' : ''}`}>
                   <li className="p-4 hover:bg-gray-700">
                     <div className="menu-item">
@@ -160,14 +138,7 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                     </div>
                   </li>
                 </Link>
-                {/* <Link to="/settings" className={`link ${location.pathname === '/settings' ? 'active' : ''}`}>
-                  <li className="p-4 hover:bg-gray-700">
-                    <div className="menu-item">
-                      <FontAwesomeIcon icon={faCog} className="mr-2" size="2x" style={{ color: 'white' }} />
-                      <span style={{ color: 'white' }}>Settings</span>
-                    </div>
-                  </li>
-                </Link> */}
+    
               </>
             )}
           </ul>
@@ -204,11 +175,7 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                  <FontAwesomeIcon icon={faUsers} className="menu-icon" size="2x" style={{ color: 'white', margin:'20px' }} />
                </Link>
              </div>
-             {/* <div className="menu-item">
-               <Link to="/settings" className={`link ${location.pathname === '/settings' ? 'active' : ''}`}>
-                 <FontAwesomeIcon icon={faCog} className="menu-icon" size="2x" style={{ color: 'white' , margin:'25px'}} />
-               </Link>
-             </div> */}
+
               <div className="menu-item">
                 <Link to="/fileupload" className={`link ${location.pathname === '/fileupload' ? 'active' : ''}`}>
                   <FontAwesomeIcon icon={faFileUpload} className="menu-icon" size="2x" style={{ color: 'white', margin:'30px'}} />
@@ -245,11 +212,7 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                   <FontAwesomeIcon icon={faUsers} className="menu-icon" size="2x" style={{ color: 'white', margin:'20px' }} />
                 </Link>
               </div>
-              {/* <div className="menu-item">
-                <Link to="/settings" className={`link ${location.pathname === '/settings' ? 'active' : ''}`}>
-                  <FontAwesomeIcon icon={faCog} className="menu-icon" size="2x" style={{ color: 'white' , margin:'25px'}} />
-                </Link>
-              </div> */}
+
             </>
           )}
 
@@ -266,21 +229,13 @@ const Sidebar = ({ isOpen, toggle, role, userfName, userlName, UserImage }) => {
                <p style={{ color: 'white', textAlign:'center' }}>{userfName}</p>
               </Link>
             </div>
-            {/* <div className="menu-item">
-              <Link to="/faculty" className={`link ${location.pathname === '/admin' ? 'active' : ''}`}>
-                <FontAwesomeIcon icon={faTachometerAlt} className="menu-icon" size="2x" style={{ color: 'white', margin:'25px' }} />
-              </Link>
-            </div> */}
+
             <div className="menu-item">
               <Link to="/schools" className={`link ${location.pathname === '/schools' ? 'active' : ''}`}>
                 <FontAwesomeIcon icon={faGraduationCap} className="menu-icon" size="2x" style={{ color: 'white', margin:'20px' }} />
               </Link>
             </div>
-            {/* <div className="menu-item">
-              <Link to="/settings" className={`link ${location.pathname === '/settings' ? 'active' : ''}`}>
-                <FontAwesomeIcon icon={faCog} className="menu-icon" size="2x" style={{ color: 'white' , margin:'25px'}} />
-              </Link>
-            </div> */}
+ 
           </>
           )}
 

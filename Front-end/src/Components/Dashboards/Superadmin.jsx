@@ -5,7 +5,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { auth, firestore } from '../../fbconfig';
 import { doc, getDoc } from 'firebase/firestore';
 import { getAuth, createUserWithEmailAndPassword, updateProfile, deleteUser } from "firebase/auth";
-import {DisplayContent} from '../Paths/contentDisplays/displaycontents';
+import {DisplayContent} from '../Paths/contentDisplays/displaySuperadminContents';
 import Widget from '../Paths/widgets/widget';
 
 
@@ -57,9 +57,6 @@ export default function SuperAdmin() {
          <div className="widget-space">
           <Widget type="users" />
           <Widget type="recentUsers" />
-          {/* <Widget type="totalSchools" /> */}
-          {/* <Widget type="totalCourses" />
-          <Widget type="totalAssessments" /> */}
         </div> 
         
       </div>

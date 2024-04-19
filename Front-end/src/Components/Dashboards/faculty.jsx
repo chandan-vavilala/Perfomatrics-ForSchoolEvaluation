@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faSearch, faTachometerAlt, faCog, faBars, faTimes, faGraduationCap, faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { faAlignLeft, faSearch} from '@fortawesome/free-solid-svg-icons';
 import DisplayFacultyContents from "../Paths/contentDisplays/displayFacultyContents";
 import { auth, firestore } from '../../fbconfig';

@@ -18,11 +18,10 @@ import UniqueCourses from './Components/Paths/uniqueCourses/uniqueCourses.jsx';
 import UniqueAssessments from './Components/Paths/uniqueAssessments/uniqueAssessments.jsx';
 import RecentUsers from './Components/Paths/recentUsers/recentUsers.jsx'
 
-// import Assessment from './Components/Paths/Assessment.jsx'; 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { doc, getDoc } from 'firebase/firestore';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Assessment from '../../Back-end/model.js';
+
 
 
 function App() {
@@ -49,10 +48,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<Index />} path="/" />
-          {/* <Route element = {<DisplayData/>} path = "/DisplayData" /> */}
-          {/* <Route element={<Admin />} path="/admin" />
-          <Route element={<SideBar />} path="/sidebar" />
-          <Route element={<SuperAdmin />} path="/super-admin" /> */}
+
           {userData && (
             <Route
               path="/faculty"

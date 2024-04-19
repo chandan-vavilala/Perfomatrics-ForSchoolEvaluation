@@ -52,24 +52,6 @@ function RecentUsersPage() {
       fetchUserDetails();
     }, [navigate]);
   
-    // useEffect(() => {
-    //   const fetchUserData = async () => {
-    //     try {
-    //       const userRef = doc(firestore, 'users', uid);
-    //       const docSnap = await getDoc(userRef);
-  
-    //       if (docSnap.exists()) {
-    //         setUser(docSnap.data());
-    //       } else {
-    //         console.log('No such document!');
-    //       }
-    //     } catch (error) {
-    //       console.error('Error fetching user data:', error);
-    //     }
-    //   };
-    //   fetchUserData();
-    // }, [uid]);
-
 
     const handleNameClick = (user) => {
       // Perform any additional actions here

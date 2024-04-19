@@ -51,8 +51,6 @@ const Widget = ({ type }) => {
         const fetchFacultyUsers = async () => {
             try {
                 const schoolId = userDetails?.SchoolId;
-                // console.log(userDetails)
-                // console.log(schoolId)
 
                 if (!schoolId) {
                     console.error('User is not associated with any school.');

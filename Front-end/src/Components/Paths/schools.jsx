@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth, firestore } from '../../fbconfig';
 import { doc, getDoc } from 'firebase/firestore';
-import { DisplayContent } from './contentDisplays/displaycontents';
+import { DisplayContent } from './contentDisplays/displaySuperadminContents';
 import DisplayAdminContent from './contentDisplays/displayAdminContents';
 import DisplayFacultyContent from './contentDisplays/displayFacultyContents'
 
@@ -66,19 +66,6 @@ export default function Schools() {
       <div className={`main-content ${isOpen ? 'sidebar-open' : 'sidebar-closed'} flex-grow p-10`}>
         <div className="header flex justify-between items-center mb-4">
         
-        {/* <div className="divheader">
-            
-           <input
-            type="text"
-            placeholder="Search..."
-            value={filter}
-            onChange={handleFilterChange}
-            style={{ padding: '8px', marginRight: '10px', marginLeft:'0px'}}
-          />
-          <button onClick={() => setFilter('')} style={{ padding: '8px',marginRight:'30px' }}>Clear</button>
-       </div>
-         */}
-        
         </div>
 
         <div className="cards-container flex flex-wrap gap-4"  style={{ justifyContent: 'flex-start',marginLeft: '50px',marginTop: '150px' }}>
@@ -105,7 +92,9 @@ export default function Schools() {
               {userDetails && <h2 style={{ marginRight: '40px' }}>{userDetails.FirstName} {userDetails.LastName}</h2>}
           </div>
           </div>
-          <div style={{marginTop:''}}> <DisplayFacultyContent/>  </div>  
+            <div style={{marginTop:''}}> 
+                <DisplayFacultyContent/> 
+            </div>  
           </div>
     </div>
           </>
